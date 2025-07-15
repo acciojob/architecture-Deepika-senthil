@@ -1,14 +1,134 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
-</head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Architecture Webpage</title>
+  <style>
+    body {
+      background-color: #d3dcd4;
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      padding: 20px;
+    }
 
+    .container {
+      width: 1100px;
+      background-color: #f8f8f8;
+      padding: 20px;
+      border: 1px solid #ccc;
+    }
+
+    .imageContainer {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .imageContainer img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 5px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 20px;
+    }
+
+    td {
+      vertical-align: top;
+      padding: 10px;
+      border: 1px solid #aaa;
+    }
+
+    .col-image {
+      width: 200px;
+      text-align: center;
+    }
+
+    .col-image img {
+      width: 100%;
+      border-radius: 4px;
+    }
+
+    .col-text {
+      width: 600px;
+      padding: 15px;
+      color: #333;
+    }
+
+    .col-text h3 {
+      margin-top: 0;
+      color: #2c3e50;
+    }
+
+    .learn-more {
+      display: block;
+      margin-top: 10px;
+      font-size: 14px;
+      color: #0056b3;
+      text-decoration: none;
+    }
+
+    .learn-more:hover {
+      text-decoration: underline;
+    }
+
+    .bold {
+      font-weight: bold;
+    }
+  </style>
+</head>
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
+  <div class="container">
+    <div class="imageContainer">
+      <img src="https://via.placeholder.com/1000x400?text=Architectural+Design+Concept" alt="Main Architectural Design">
+    </div>
+
+    <table>
+      <tr>
+        <td class="col-image">
+          <img src="https://via.placeholder.com/200x200?text=Structure+1" alt="Structure 1">
+        </td>
+        <td class="col-text">
+          <h3>Unit #5 - Floor Plans</h3>
+          <ul>
+            <li>A. Kitchen</li>
+            <li>B. Bathroom</li>
+            <li>C. Using "Slabs"</li>
+            <li>D. Georgian Home</li>
+            <li>E. Sketching Assignment #5</li>
+          </ul>
+        </td>
+        <td class="col-image">
+          <img src="https://via.placeholder.com/200x200?text=Structure+2" alt="Structure 2">
+        </td>
+      </tr>
+      <tr>
+        <td class="col-image">
+          <div class="bold">HousePlans.com</div>
+          <p>The largest source for quality affordable ready-made house plans. A great place to surf for space planning ideas.</p>
+          <a class="learn-more" href="#">learn more</a>
+        </td>
+        <td class="col-text">
+          <h3>Objective</h3>
+          <p>Discuss factors that are important in the design of bedrooms. Plan the size and location of closets for a typical residence. Plan a furniture arrangement for a room. Implement important design considerations for bathrooms. Plan a bathroom that follows solid design principles. Plan the service area of a home by applying good design principles.</p>
+          <p>Design a functional kitchen to meet a family’s needs. Select kitchen appliances that are appropriate for a design. Plan an efficient clothes care center. Describe appropriate dimensions for garage space. Identify the rooms and areas that comprise the living area. Apply design principles to planning a living room. Integrate the furniture in a living room plan. Analyze a dining room using good design principles. Design a functional entry and foyer.</p>
+        </td>
+        <td class="col-image">
+          <div class="bold">Green Floor</div>
+          <p>FreeGreen.com offers both sponsored and non-sponsored floor plans. Their goal is to provide consumers with free solutions to their green architectural needs.</p>
+          <a class="learn-more" href="#">learn more</a>
+        </td>
+      </tr>
+    </table>
+  </div>
+</body>
+</html>
+
+ <script type="text/javascript" src="./script.js">
 </script>
 
 </body>
